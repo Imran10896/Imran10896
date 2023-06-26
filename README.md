@@ -1,9 +1,8 @@
  <h1 align="center">Hi 👋, I'm Imran</h1>
 <h3 align="center">Ph.D. Scholar in Machine Learning from India</h3>
 
-- 🔭 I’m currently working on **analyzing the modern methods of calculating the Value at Risk(VaR) for a portfolio of stocks.**
+- 🔭 I’m working on **Enhancing Portfolio Optimization, a groundbreaking endeavor combining network analysis, advanced algorithms, and investment strategies. This innovative work aims to unlock new insights and improve traditional approaches to portfolio construction, with the potential to generate superior investment outcomes and contribute to the advancement of the financial industry.**
 
-- 🌱 I’m currently learning **TDA-based networks for building predicted models which shall predict the VaR in future times or an intraday trader.**
 
 - 📫 How to reach me **imranansari10896@gmail.com**
 
