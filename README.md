@@ -1,5 +1,5 @@
  <h1 align="center">Hi 👋, I'm Imran</h1>
-<h3 align="center">Ph.D. Scholar in Machine Learning from India</h3>
+<h3 align="center">Ph.D. Scholar in Machine Learning and Complex Analysis from India</h3>
 
 - 🔭 I’m working on **Enhancing Portfolio Optimization, a groundbreaking endeavor combining network analysis, advanced algorithms, and investment strategies. This innovative work aims to unlock new insights and improve traditional approaches to portfolio construction, with the potential to generate superior investment outcomes and contribute to the advancement of the financial industry.**
 
