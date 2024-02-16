@@ -1,4 +1,4 @@
- # Hi 👋, I'm Imran
+ # Hi there 👋
 
 ### Ph.D. Scholar in Machine Learning and Complex Networks
 
