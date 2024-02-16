@@ -1,0 +1,172 @@
+
+path="/home/imran/Documents/Data/Nifty_200_2010_22_log_returns.csv"
+
+Method=readmatrix(path);
+
+mat = [];
+
+num_windows=3080; 
+
+%for 2017_21, num_windows=815|| 2014_21, num_windows=1846|| 10_22(140 Stocks), num_windows=3085;
+
+for i = 1:num_windows
+
+    Y1=Method(i:i+124,:); 
+
+    Y2 = corrcoef(Y1);
+
+    G = pmfg(Y2);
+    
+    B = full(G);
+
+    mat = [mat; B];
+
+end
+
+writematrix(mat, 'adj_mat_corr_2010_22.csv');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+path="/home/imran/Documents/Data/Nifty_200_2010_22_log_returns.csv"
+
+Method=readmatrix(path);
+
+mat = [];
+
+dt = 125; %size(Y, 1);  % Number of observations
+theta =125; % size(Y, 1);  % Example value for theta
+
+num_windows=3084; 
+
+%for 2017_21, num_windows=815|| 2014_21, num_windows=1846|| 10_22(140 Stocks), num_windows=3084;
+
+for i = 1:n   % for 2017_21, n=815;
+    
+    Y=Method(i:i+124,:); 
+
+    w = expweights(dt, theta);  % Call the expweights function
+
+    % Calculate the weighted correlation matrix using weightedcorrs
+
+    R = weightedcorrs(Y, w);  % Call the weightedcorrs function  
+
+    G = pmfg(R);
+
+    B = full(G);
+
+    mat = [mat; B];
+
+end
+
+writematrix(mat, 'adj_mat_exp_2010_22.csv')
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+csv_file_name="/home/imran/2014/adj_75per_corr_without_pmfg_2014.csv"
+
+Method=readmatrix(csv_file_name);
+
+
+Cor_per_2014=[];  
+
+num_windows=2741;
+num_stocks=89;
+
+for i=1:num_windows   % for 2017_21, n=815;
+
+    Y=Method(num_stocks*i-(num_stocks-1):num_stocks*i,:);
+    G = sparse(Y);
+    XpY = Peripherality(G);
+    [~,b]=sort(XpY,'descend');     % X+Y is small for the central vertices and large for the Peripheral
+    Cor_per_2014 = [Cor_per_2014 b];
+end
+
+writematrix(Cor_per_2014,'XpY_75per_corr_without_pmfg_2014.csv');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+path="/home/imran/Data/Data_2014.csv"
+
+Method=readmatrix(path);
+
+mat = [];
+
+num_windows=2741;   % for 2017_21, n=815;
+
+for i = 1:num_windows
+
+    Y1=Method(60*i-59:60*i+180,:);  %75% overlap 
+
+    Y2 = corrcoef(Y1);
+
+    %G = pmfg(Y2);
+    
+    %B = full(G);
+
+    mat = [mat; Y2];
+
+end
+
+writematrix(mat, 'adj_75per_corr_without_pmfg_2014.csv');
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+path="/home/imran/Data/Data_2014.csv"
+
+dt = 240; %size(Y, 1);  % Number of observations
+theta =240; % size(Y, 1);  % Example value for theta
+
+
+Method=readmatrix(path);
+
+mat = [];
+
+num_windows=2741;   % for 2017_21, n=815;
+
+for i = 1:num_windows
+
+    Y=Method(60*i-59:60*i+180,:);  %75% overlap 
+
+    w = expweights(dt, theta);  % Call the expweights function
+
+    % Calculate the weighted correlation matrix using weightedcorrs
+
+    R = weightedcorrs(Y, w);  % Call the weightedcorrs function  
+
+    mat = [mat; R];
+
+end
+
+writematrix(mat, 'adj_75per_exp_without_pmfg_2014.csv');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+csv_file_name = '/home/imran/Documents/new_daily_data_CP_Final/Adj_mat/Nifty_500_adj_mat_exp_2010_22.csv';
+
+% Read the CSV file
+Method = readmatrix(csv_file_name);
+
+% Replace NaN values with 0
+Method(isnan(Method)) = 0;
+
+mat=[];  
+
+num_windows=size(Method,1)/size(Method,2);
+
+num_stocks=size(Method,2);
+
+for i=1:num_windows   % for 2017_21, n=815;
+
+    Y=Method(num_stocks*i-(num_stocks-1):num_stocks*i,:);
+
+    G = sparse(Y);
+
+    XpY = Peripherality(G);
+
+    [~,b]=sort(XpY,'descend');     
+
+    mat = [mat b];
+
+end
+
+writematrix(mat,'XpY_exp_nifty_500_2010_22.csv');
