@@ -1,7 +1,8 @@
- <h1 align="center">Hi 👋, I'm Imran</h1>
-<h3 align="center">Ph.D. Scholar in Machine Learning and Complex Analysis from India</h3>
+ # Hi 👋, I'm Imran
 
-- 🔭 I’m working on **Enhancing Portfolio Optimization, a groundbreaking endeavor combining network analysis, advanced algorithms, and investment strategies. This innovative work aims to unlock new insights and improve traditional approaches to portfolio construction, with the potential to generate superior investment outcomes and contribute to the advancement of the financial industry.**
+### Ph.D. Scholar in Machine Learning and Complex Analysis
+
+- 🔭 I'm currently working on **Enhancing Portfolio Optimization**, a pioneering effort that blends network analysis and machine learning techniques to revolutionize investment strategies.
 
 
 - 📫 How to reach me **imranansari10896@gmail.com**
