@@ -1,6 +1,6 @@
  # Hi 👋, I'm Imran
 
-### Ph.D. Scholar in Machine Learning and Complex Analysis
+### Ph.D. Scholar in Machine Learning and Complex Networks
 
 - 🔭 I'm currently working on **Enhancing Portfolio Optimization**, a pioneering effort that blends network analysis and machine learning techniques to revolutionize investment strategies.
 
