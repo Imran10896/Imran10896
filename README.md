@@ -1,8 +1,7 @@
  # Hi there 👋
 
-# I am a Ph.D. Scholar in Machine Learning and Complex Networks
-
-- 🔭 I'm currently working on **Enhancing Portfolio Optimization**, a pioneering effort that blends network analysis and machine learning techniques to revolutionize investment strategies.
+- I am a Ph.D. Scholar in Machine Learning and Complex Networks
+- - 🔭 I'm currently working on **Enhancing Portfolio Optimization**, a pioneering effort that blends network analysis and machine learning techniques to revolutionize investment strategies.
 
 
 - 📫 How to reach me **imranansari10896@gmail.com**
