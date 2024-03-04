@@ -16,7 +16,6 @@
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-
 <p align="left"> 
 <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> 
@@ -27,4 +26,14 @@
 <a href="https://www.r-project.org/" target="_blank" rel="noreferrer"> 
 <img src="https://www.r-project.org/logo/Rlogo.svg" alt="R" width="40" height="40"/> 
 </a> 
+<a href="https://www.latex-project.org/" target="_blank" rel="noreferrer"> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="latex" width="40" height="40"/> 
+</a> 
+<a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/excel/excel-original.svg" alt="excel" width="40" height="40"/> 
+</a> 
+<a href="https://www.microsoft.com/en-us/microsoft-365/word" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/word/word-original.svg" alt="word" width="40" height="40"/> 
+</a> 
 </p>
+
