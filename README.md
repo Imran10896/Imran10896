@@ -4,7 +4,10 @@
 - 🔭 I'm currently working on **Enhancing Portfolio Optimization**, a pioneering effort that blends network analysis and machine learning techniques to revolutionize investment strategies.
 
 
-- 📫 How to reach me **imranansari10896@gmail.com**
+- 📫 How to reach me:
+- 
+-   **ia717@snu.edu.in**
+-   **imranansari10896@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -30,9 +33,9 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="latex" width="40" height="40"/> 
 </a> 
 <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/excel/excel-original.svg" alt="excel" width="40" height="40"/> 
+<img src="https://img.icons8.com/fluent/48/000000/microsoft-excel-2019.png" alt="excel" width="40" height="40"/> 
 </a> 
 <a href="https://www.microsoft.com/en-us/microsoft-365/word" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/word/word-original.svg" alt="word" width="40" height="40"/> 
+<img src="https://img.icons8.com/color/48/000000/microsoft-word-2019.png" alt="word" width="40" height="40"/> 
 </a> 
 </p>
