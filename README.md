@@ -4,10 +4,11 @@
 - 🔭 I'm currently working on **Enhancing Portfolio Optimization**, a pioneering effort that blends network analysis and machine learning techniques to revolutionize investment strategies.
 
 
-- 📫 How to reach me:
-- 
-   **ia717@snu.edu.in**
-   **imranansari10896@gmail.com**
+## 📫 How to reach me:
+
+- **ia717@snu.edu.in**
+- **imranansari10896@gmail.com**
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
