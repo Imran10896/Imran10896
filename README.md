@@ -6,8 +6,8 @@
 
 - 📫 How to reach me:
 - 
--   **ia717@snu.edu.in**
--   **imranansari10896@gmail.com**
+   **ia717@snu.edu.in**
+   **imranansari10896@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
