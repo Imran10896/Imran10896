@@ -36,4 +36,3 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/word/word-original.svg" alt="word" width="40" height="40"/> 
 </a> 
 </p>
-
