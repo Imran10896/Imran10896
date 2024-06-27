@@ -4,11 +4,11 @@
 
 - I am currently working on the following projects:
 
-  - 🔭 **Enhancing Portfolio Optimization**: Integrating network analysis and machine learning to revolutionize investment strategies.
+  - 🔭 **Enhancing Portfolio Optimization** Integrating network analysis and machine learning to revolutionize investment strategies.
   
-  - 🔍 **Uncovering Core-Periphery Structures**: Investigating hidden core-periphery structures in hyperbolic network models (such as PSO and S1 models), revealing their natural embedding and applicability to real-world systems.
+  - 🔍 Investigating hidden core-periphery structures in hyperbolic network models (such as PSO and S1 models), revealing their natural embedding and applicability to real-world systems.
   
-  - 🧩 **Exploring Meso-Scale Structures**: Detecting meso-scale structures, particularly core-periphery and community structures, in networks.
+  - 🧩 Detecting meso-scale structures, particularly core-periphery and community structures, in networks.
 
 ## 📫 How to reach me:
 
@@ -34,14 +34,5 @@
   </a> 
   <a href="https://www.r-project.org/" target="_blank" rel="noreferrer"> 
     <img src="https://www.r-project.org/logo/Rlogo.svg" alt="R" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.latex-project.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="latex" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noreferrer"> 
-    <img src="https://img.icons8.com/fluent/48/000000/microsoft-excel-2019.png" alt="excel" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.microsoft.com/en-us/microsoft-365/word" target="_blank" rel="noreferrer"> 
-    <img src="https://img.icons8.com/color/48/000000/microsoft-word-2019.png" alt="word" width="40" height="40"/> 
   </a> 
 </p>
