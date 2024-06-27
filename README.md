@@ -1,12 +1,12 @@
 # Hi there 👋
 
-- 🎓 I am Imran Ansari, a Ph.D. Scholar in Complex Networks and Machine Learning at Shiv Nadar Institution of Eminence, India.
-
+- 🎓 I am Imran Ansari, a Research scholar in Complex Networks and Machine Learning at the School of Natural Sciences, Shiv Nadar Institution of Eminence, India.
+  
 - I am currently working on the following projects:
 
   - 🔭 **Enhancing Portfolio Optimization** Integrating network analysis and machine learning to revolutionize investment strategies.
   
-  - 🔍 Investigating hidden core-periphery structures in hyperbolic network models (such as PSO and S1 models), revealing their natural embedding and applicability to real-world systems.
+  - 🔍 **Investigating hidden core-periphery structures in hyperbolic network models (such as PSO and S1 models)**, revealing their natural embedding and applicability to real-world systems.
   
   - 🧩 Detecting meso-scale structures, particularly core-periphery and community structures, in networks.
 
